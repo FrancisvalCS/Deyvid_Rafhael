@@ -3,15 +3,29 @@
     src: url('../../fonts/Autography.otf');
 }
 
-header{width: 50%;}
+header{
+    width: 95%;
+    position: static;
+    
+}
 .logo{
-    font-family: autography !important;
+    font-family: autography;
     font-size: 36px;
     margin-top: 20px;
     margin-left: 35px;
+    float: left;
 }
 .logo a{
     text-decoration: none;
     color: black;
 }
 
+.menu{
+    font-family: 'Lato', sans-serif;
+    float: right;
+    margin-top: 20px;
+
+}
+.menu a{
+    padding: 10px;
+}
